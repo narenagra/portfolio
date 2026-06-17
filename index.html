@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Narendra Kumar - Senior Java Backend Developer & Spring Boot Expert. Specializing in microservices, secure REST APIs, and AWS cloud solutions.">
+  <meta name="keywords" content="Narendra Kumar, Java Developer, Spring Boot Developer, Backend Engineer, Java 8, Microservices, REST API, AWS, Hibernate, SQL">
+  <title>Narendra Kumar | Senior Java Developer Portfolio</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span>&lt;</span>Narendra<span>/&gt;</span>
+      </a>
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#terminal" class="nav-link">Terminal</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-subtitle">Java Backend Developer</span>
+        <h1 class="hero-title">
+          Building Robust <span class="glow-text">Scalable Systems</span>
+        </h1>
+        <p class="hero-desc">
+          I am a professional Software Developer with 3.5+ years of experience designing secure, event-driven microservices, high-traffic API solutions, and highly reliable database systems.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Let's Connect <i class="fas fa-arrow-right"></i></a>
+          <a href="#projects" class="btn btn-secondary">View Work</a>
+        </div>
+      </div>
+      
+      <!-- Automated Typing Editor -->
+      <div class="editor-widget reveal active">
+        <div class="editor-header">
+          <div class="editor-buttons">
+            <span class="editor-btn red"></span>
+            <span class="editor-btn yellow"></span>
+            <span class="editor-btn green"></span>
+          </div>
+          <span class="editor-title">DeveloperProfile.java</span>
+          <span style="width: 42px;"></span>
+        </div>
+        <div class="editor-body">
+          <div><span class="line-num">1</span><span class="editor-keyword">import</span> java.util.*;</div>
+          <div><span class="line-num">2</span></div>
+          <div><span class="line-num">3</span><span class="editor-keyword">public class</span> <span class="editor-class">DeveloperInfo</span> {</div>
+          <div><span class="line-num">4</span>  <span class="editor-keyword">public static void</span> <span class="editor-function">main</span>(String[] args) {</div>
+          <div><span class="line-num">5</span>    <span class="editor-class">Developer</span> narendra = <span class="editor-keyword">new</span> <span class="editor-class">Developer</span>();</div>
+          <div><span class="line-num">6</span>    narendra.setName(<span class="editor-string">"Narendra Kumar"</span>);</div>
+          <div><span class="line-num">7</span>    narendra.setRole(<span class="editor-string">"Java Backend Developer"</span>);</div>
+          <div><span class="line-num">8</span>    narendra.setExpYears(<span class="editor-keyword">3.5</span>);</div>
+          <div><span class="line-num">9</span>    narendra.setSpecialty(<span class="editor-string">"Spring Boot & Microservices"</span>);</div>
+          <div><span class="line-num">10</span>    </div>
+          <div><span class="line-num">11</span>    <span class="editor-comment">// Printing profile initialization</span></div>
+          <div><span class="line-num">12</span>    narendra.printDashboard();</div>
+          <div><span class="line-num">13</span>  }</div>
+          <div><span class="line-num">14</span>}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Terminal Section -->
+  <section id="terminal" class="section terminal-section">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Interactive <span class="glow-text">Developer CLI</span></h2>
+      </div>
+      
+      <div class="terminal-wrapper reveal">
+        <div class="terminal-box">
+          <div class="terminal-header-bar">
+            <div class="editor-buttons">
+              <span class="editor-btn red"></span>
+              <span class="editor-btn yellow"></span>
+              <span class="editor-btn green"></span>
+            </div>
+            <div class="terminal-title">narendra@backend-server:~</div>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <div class="terminal-line">Welcome to Narendra's Interactive CLI. v1.0.0</div>
+            <div class="terminal-line">Type <span class="terminal-prompt">help</span> to view all available commands.</div>
+            <div class="terminal-line"></div>
+            <!-- Input Prompt Line -->
+            <div class="terminal-input-line">
+              <span class="terminal-input-prompt">guest@narendra-portfolio:~$</span>
+              <input type="text" class="terminal-input" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Technical <span class="glow-text">Skill Matrix</span></h2>
+      </div>
+      
+      <div class="skills-grid">
+        <!-- Backend Development -->
+        <div class="skill-category glass-card reveal">
+          <h3 class="category-title"><i class="fas fa-code-branch"></i> Backend & Languages</h3>
+          <div class="skill-items">
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Core Java (Java 8+/17)</span>
+                <span class="skill-badge">95%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="95%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Spring Boot & MVC</span>
+                <span class="skill-badge">90%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Spring Security & JWT</span>
+                <span class="skill-badge">85%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Microservices & Streaming -->
+        <div class="skill-category glass-card reveal">
+          <h3 class="category-title"><i class="fas fa-cubes"></i> Microservices & Brokers</h3>
+          <div class="skill-items">
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Eureka Service Discovery</span>
+                <span class="skill-badge">88%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="88%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">API Gateway & Feign Client</span>
+                <span class="skill-badge">85%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Apache Kafka (Basic)</span>
+                <span class="skill-badge">70%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases & ORM -->
+        <div class="skill-category glass-card reveal">
+          <h3 class="category-title"><i class="fas fa-database"></i> Database & Persistence</h3>
+          <div class="skill-items">
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Hibernate ORM & JPA</span>
+                <span class="skill-badge">90%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">MySQL & SQL Server</span>
+                <span class="skill-badge">85%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Oracle SQL</span>
+                <span class="skill-badge">80%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DevOps & Infrastructure -->
+        <div class="skill-category glass-card reveal">
+          <h3 class="category-title"><i class="fas fa-cloud"></i> DevOps & Tools</h3>
+          <div class="skill-items">
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Git & GitLab CI</span>
+                <span class="skill-badge">85%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">Docker & Containers</span>
+                <span class="skill-badge">75%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="75%"></div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-header">
+                <span class="skill-name">AWS Services (EC2, S3, RDS)</span>
+                <span class="skill-badge">78%</span>
+              </div>
+              <div class="skill-bar-wrapper">
+                <div class="skill-bar" data-width="78%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience" class="section terminal-section">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Professional <span class="glow-text">Journey</span></h2>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header-info">
+              <div>
+                <h3 class="company-title">Webearn Solution Pvt Ltd</h3>
+                <span class="role-tag">Java Developer</span>
+              </div>
+              <div style="text-align: right;">
+                <span class="timeline-date">June 2022 – Present</span>
+                <div class="timeline-date" style="font-size: 0.8rem; color: var(--accent-primary);">Noida, Uttar Pradesh</div>
+              </div>
+            </div>
+            <p class="experience-desc">
+              Designed and implemented enterprise backend features and microservice modules. Collaborated closely in agile squads to secure and scale platform modules.
+            </p>
+            <ul class="bullets-list">
+              <li>Engineered and deployed scalable microservices utilizing <strong>Spring Boot</strong>, <strong>Hibernate</strong>, and <strong>Spring Data JPA</strong>.</li>
+              <li>Authored and optimized 20+ RESTful APIs secured via <strong>Spring Security & JWT</strong>, enabling robust authentication structures.</li>
+              <li>Successfully designed DAO repositories and mapped relational entity schemas using <strong>MySQL</strong>.</li>
+              <li>Maintained support, enhancement, and performance optimizations across large scale software modules with 3.5+ years of dedicated professional delivery.</li>
+            </ul>
+            <div class="project-tech" style="margin-top: 1.5rem;">
+              <span class="tech-tag">Java 17</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">Spring Security</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">Microservices</span>
+              <span class="tech-tag">Hibernate</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Featured <span class="glow-text">Projects</span></h2>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card glass-card reveal">
+          <div class="project-header">
+            <i class="fas fa-shopping-cart project-icon"></i>
+            <span class="project-date">Dec 2023 - Present</span>
+          </div>
+          <h3 class="project-title">S Chand Publication E-Commerce Platform</h3>
+          <p class="project-desc">
+            A high-traffic e-commerce book selling platform created to support Schand Publication's extensive educational books catalog. Built the robust backend architecture handling search filters, purchasing transactions, and order management.
+          </p>
+          <ul class="bullets-list" style="margin-bottom: 1.5rem;">
+            <li>Built secure REST APIs for customer registration, authentication, and shopping pipelines.</li>
+            <li>Designed and indexed Oracle relational schemas ensuring maximum consistency.</li>
+            <li>Implemented real-time order tracking modules and service controller methods.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Spring Security</span>
+            <span class="tech-tag">JPA</span>
+            <span class="tech-tag">Oracle SQL</span>
+            <span class="tech-tag">REST APIs</span>
+            <span class="tech-tag">Postman</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card reveal">
+          <div class="project-header">
+            <i class="fas fa-heartbeat project-icon"></i>
+            <span class="project-date">June 2022 - Nov 2023</span>
+          </div>
+          <h3 class="project-title">Online Health Insurance Services</h3>
+          <p class="project-desc">
+            A digital healthcare plan portal built for Harvard Pilgrims HealthCare, USA. Developed to allow customers to easily inquire, subscribe, and submit financial claims with nearby partner hospitals.
+          </p>
+          <ul class="bullets-list" style="margin-bottom: 1.5rem;">
+            <li>Authored REST APIs managing plans, user accounts, and claim processes.</li>
+            <li>Leveraged Hibernate ORM to lower database access overhead, replacing legacy DAO boilerplate.</li>
+            <li>Collaborated in an 11-member distributed engineering team.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">Spring MVC</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Hibernate</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">JSP</span>
+            <span class="tech-tag">RESTful APIs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section terminal-section">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Education & <span class="glow-text">Credentials</span></h2>
+      </div>
+      
+      <div class="glass-card edu-card reveal">
+        <div class="edu-icon-box">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="edu-details">
+          <span class="edu-uni">Priyadarshini College of Computer Sciences</span>
+          <span class="edu-degree">Bachelor of Technology (B.Tech) in Computer Science & Engineering</span>
+          <span class="edu-gpa">Aggregate: 65.92%</span>
+          <div class="edu-location">
+            <i class="fas fa-map-marker-alt"></i> Dr A.P.J Abdul Kalam Technical University, Lucknow (Greater Noida, UP)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Let's <span class="glow-text">Collaborate</span></h2>
+      </div>
+      
+      <div class="contact-grid">
+        <!-- Contact details -->
+        <div class="contact-info reveal">
+          <h3 style="font-size: 1.8rem;">Have a project in mind or want to hire?</h3>
+          <p style="color: var(--text-muted);">
+            Reach out via the form, or direct email/mobile. Let's discuss backend architecture, microservices, or API development.
+          </p>
+          
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-label">Email</div>
+                <a href="mailto:narenagra007@gmail.com" class="contact-value">narenagra007@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <div class="contact-label">Phone</div>
+                <a href="tel:+919220748426" class="contact-value">+91-9220748426</a>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div>
+                <div class="contact-label">Location</div>
+                <span class="contact-value">Noida, Uttar Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="glass-card reveal">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" class="form-input" placeholder=" " required>
+              <label for="name" class="form-label">Your Name</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" class="form-input" placeholder=" " required>
+              <label for="email" class="form-label">Your Email</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" class="form-input" placeholder=" " required></textarea>
+              <label for="message" class="form-label">Your Message</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">
+        <span>&lt;</span>Narendra<span>/&gt;</span>
+      </div>
+      <p>&copy; 2026 Narendra Kumar. Built for premium developer experience.</p>
+      <div class="social-links">
+        <a href="mailto:narenagra007@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+919220748426" class="social-link" title="Phone"><i class="fas fa-phone-alt"></i></a>
+        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
